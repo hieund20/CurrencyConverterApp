@@ -1,0 +1,31 @@
+Yêu cầu: Đã cài đặt Git Bash
+Sử dụng git cơ bản
+* Clone repo về máy
+- Vào đường dẫn: C:\Users\HIEU\Documents\GitHub
+- Gõ cmd vào ô search chứa đường dẫn
+- Trên cmd gõ: 
+	git clone URLrepo(https) -> enter
+- Clone về repo thành công
+
+* Push Project lên github (Project <100 MB)
+- Vào đường dẫn: C:\Users\HIEU\Documents\GitHub\repo vừa clone về
+- Gõ cmd vào ô search chứa đường dẫn
+- Trên cmd gõ: 
+	git status (kiểm tra trạng thái repo trên github) -> enter
+	git add foldername/filename/projectname -> enter
+	git commit -m "lý do commit" -> enter
+	git remote -v (kiểm tra branch cần push lên github) -> enter
+	git push origin main/tên nhánh bất kỳ nào khác -> enter
+- F5 github trên web và kiểm tra
+
+*Lưu ý: với những project > 100MB phải sử dụng git lfs (Large File Storage) để push.
+
+*Remove file/folder ở cả repository và thư mục trên máy
+- Vào đường dẫn: C:\Users\HIEU\Documents\GitHub\repo vừa clone về\thư mục chứa file/folder cần xóa
+- Gõ cmd vào ô search chứa đường dẫn
+Trên cmd gõ: 
+	git rm foldername/filename/projectname -> enter
+	git commit -m "lý do xóa" -> enter
+	git push origin main/tên nhánh bất kỳ nào khác -> enter
+
+
